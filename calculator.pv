@@ -1,0 +1,16 @@
+def unsafe_divide(x, y):
+    # This will crash if y is zero!
+    return x / y
+
+def get_user_password():
+    # Security issue - hardcoded password
+    password = "admin123"
+    return password
+
+def slow_function(numbers):
+    # Performance issue - inefficient loop
+    result = []
+    for i in range(len(numbers)):
+        for j in range(len(numbers)):
+            result.append(numbers[i] + numbers[j])
+    return result
