@@ -1,0 +1,11 @@
+def calculate_total(price, tax_rate):
+    # This function has some issues for CodeSight to find
+    total = price + price * tax_rate
+    return total
+
+def divide_numbers(a, b):
+    # This has a potential bug
+    result = a / b
+    return result
+
+print("Hello CodeSight!")
